@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Not so much challenges yet , gonna try implement more functionality later .
+Not so much challenges yet , gonna try implement more functionalities later .
 
 ## License
 
