@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Working with XCode and UI is weird for me , drag this and drop that to this to make it functional isnt something i like to do in my coding carreer . But i guess this is just a small step to big thing .
+Not so much challenges yet , gonna try implement more functionality later .
 
 ## License
 
