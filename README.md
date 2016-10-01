@@ -34,11 +34,11 @@ Here's a walkthrough of implemented user stories:
 ## Video Walkthrough 2:
 
 <img src='http://i.imgur.com/b0gAPoW.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 
 ## Notes
 
-Gave up on parsing JSON back to structs .I will get back to it some days when im more used to Swift .
+Gave up on parsing JSON back to structs in order to load data to table view.I will get back to it some days when im more used to Swift .
 
 ## License
 
