@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5745941D9FFF6A00343DB3 /* TipCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5745921D9FFF6A00343DB3 /* TipCellTableViewCell.swift */; };
+		3F5745951D9FFF6A00343DB3 /* TipCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5745931D9FFF6A00343DB3 /* TipCellTableViewCell.xib */; };
+		3F7D7CF51D9FAD7300030112 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D7CF41D9FAD7300030112 /* Theme.swift */; };
 		3FD1D4EC1D9C340200C1F383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1D4EB1D9C340200C1F383 /* AppDelegate.swift */; };
 		3FD1D4EE1D9C340200C1F383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1D4ED1D9C340200C1F383 /* ViewController.swift */; };
 		3FD1D4F11D9C340200C1F383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1D4EF1D9C340200C1F383 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		3FD1D5011D9C340200C1F383 /* tipmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1D5001D9C340200C1F383 /* tipmeTests.swift */; };
 		3FD1D50C1D9C340200C1F383 /* tipmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1D50B1D9C340200C1F383 /* tipmeUITests.swift */; };
 		3FD1D51A1D9C412C00C1F383 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1D5191D9C412C00C1F383 /* SettingsViewController.swift */; };
+		3FED05D51D9F91F200DA53FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED05D41D9F91F200DA53FA /* MapKit.framework */; };
+		3FED05D71D9F91F900DA53FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED05D61D9F91F900DA53FA /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5745921D9FFF6A00343DB3 /* TipCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCellTableViewCell.swift; sourceTree = "<group>"; };
+		3F5745931D9FFF6A00343DB3 /* TipCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipCellTableViewCell.xib; sourceTree = "<group>"; };
+		3F7D7CF41D9FAD7300030112 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3FD1D4E81D9C340200C1F383 /* tipme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD1D4EB1D9C340200C1F383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD1D4ED1D9C340200C1F383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		3FD1D50B1D9C340200C1F383 /* tipmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipmeUITests.swift; sourceTree = "<group>"; };
 		3FD1D50D1D9C340200C1F383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD1D5191D9C412C00C1F383 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3FED05D41D9F91F200DA53FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3FED05D61D9F91F900DA53FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FED05D71D9F91F900DA53FA /* CoreLocation.framework in Frameworks */,
+				3FED05D51D9F91F200DA53FA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +95,7 @@
 				3FD1D4FF1D9C340200C1F383 /* tipmeTests */,
 				3FD1D50A1D9C340200C1F383 /* tipmeUITests */,
 				3FD1D4E91D9C340200C1F383 /* Products */,
+				3FED05D31D9F91F200DA53FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +119,9 @@
 				3FD1D4F21D9C340200C1F383 /* Assets.xcassets */,
 				3FD1D4F41D9C340200C1F383 /* LaunchScreen.storyboard */,
 				3FD1D4F71D9C340200C1F383 /* Info.plist */,
+				3F7D7CF41D9FAD7300030112 /* Theme.swift */,
+				3F5745921D9FFF6A00343DB3 /* TipCellTableViewCell.swift */,
+				3F5745931D9FFF6A00343DB3 /* TipCellTableViewCell.xib */,
 			);
 			path = tipme;
 			sourceTree = "<group>";
@@ -126,6 +142,15 @@
 				3FD1D50D1D9C340200C1F383 /* Info.plist */,
 			);
 			path = tipmeUITests;
+			sourceTree = "<group>";
+		};
+		3FED05D31D9F91F200DA53FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FED05D61D9F91F900DA53FA /* CoreLocation.framework */,
+				3FED05D41D9F91F200DA53FA /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD1D4F61D9C340200C1F383 /* LaunchScreen.storyboard in Resources */,
+				3F5745951D9FFF6A00343DB3 /* TipCellTableViewCell.xib in Resources */,
 				3FD1D4F31D9C340200C1F383 /* Assets.xcassets in Resources */,
 				3FD1D4F11D9C340200C1F383 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD1D4EE1D9C340200C1F383 /* ViewController.swift in Sources */,
+				3F5745941D9FFF6A00343DB3 /* TipCellTableViewCell.swift in Sources */,
+				3F7D7CF51D9FAD7300030112 /* Theme.swift in Sources */,
 				3FD1D4EC1D9C340200C1F383 /* AppDelegate.swift in Sources */,
 				3FD1D51A1D9C412C00C1F383 /* SettingsViewController.swift in Sources */,
 			);
@@ -507,6 +535,7 @@
 				3FD1D5121D9C340200C1F383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FD1D5131D9C340200C1F383 /* Build configuration list for PBXNativeTarget "tipmeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				3FD1D5151D9C340200C1F383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FD1D5161D9C340200C1F383 /* Build configuration list for PBXNativeTarget "tipmeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				3FD1D5181D9C340200C1F383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
