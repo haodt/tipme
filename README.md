@@ -21,9 +21,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
-
 * [x] Splash screen
+* [x] Reset button
+* [x] History table (missing synchronization to device)
 
 ## Video Walkthrough 
 
@@ -31,11 +31,14 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/DWYYoLX.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Version 2:
+
+<img src='http://imgur.com/b0gAPoW' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Not so much challenges yet , gonna try implement more functionalities later .
+Gave up on parsing JSON back to structs .I will get back to it some days when im more used to Swift .
 
 ## License
 
