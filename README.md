@@ -4,7 +4,7 @@ Tipme is a tip calculator application for iOS.
 
 Submitted by: Doan The Hao
 
-Time spent: 2 hours spent in total
+Time spent: 12 hours spent in total (10 hours scratching my head , pulling my hair and looking at stackoverflow) 
 
 ## User Stories
 
