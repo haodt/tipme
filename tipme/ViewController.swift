@@ -57,18 +57,20 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         super.viewDidLoad()
         let defaults = UserDefaults.standard;
         let percentage = defaults.integer(forKey:"percentage"),
-            prevbill = defaults.string(forKey:"prevbill"),
             lastedit = defaults.double(forKey: "lastedit"),
             now  = NSDate().timeIntervalSince1970;
         
         tipControl.selectedSegmentIndex = percentage;
 
-        let bill = Double(prevbill!) ?? 0;
-
-        if((now - lastedit) < 1*60 && bill > 0){
-            billField.text = prevbill;
-            calculate({} as AnyObject);
+        if let prevbill = defaults.string(forKey:"prevbill"){
+            let bill = Double(prevbill) ?? 0;
+            if((now - lastedit) < 1*60 && bill > 0){
+                billField.text = prevbill;
+                calculate({} as AnyObject);
+            }
         }
+
+        
         
         
         tippeds = defaults.object(forKey: TippedsKey) as? [Tipped] ?? [Tipped]();
